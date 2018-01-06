@@ -1,4 +1,8 @@
 /target/
 /sunhao/
 /src/
-/pom.xml
+
+/.settings/
+/.classpath
+/bin/
+/.project
