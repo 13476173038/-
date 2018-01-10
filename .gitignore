@@ -1,8 +1,7 @@
 /target/
-
-
 /.settings/
-/pom.xml
 /.classpath
 /lib/
 /logs/
+/.project
+/log4j.properties
