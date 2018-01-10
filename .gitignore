@@ -1,6 +1,10 @@
 /target/
 /.settings/
 /.classpath
-/lib/
-/logs/
 /log4j.properties
+/logs/
+/.classpath
+/lib/
+/src/
+
+
