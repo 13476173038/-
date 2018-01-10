@@ -1,5 +1,5 @@
 /target/
-/.project
 /.settings/
-/.classpath
+/.classpath/
 /log4j.properties
+/lib/
