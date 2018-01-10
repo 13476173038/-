@@ -7,7 +7,7 @@
  *
 */
 
-package test;
+package Hw20180106;
 
 import java.util.Scanner;
 
