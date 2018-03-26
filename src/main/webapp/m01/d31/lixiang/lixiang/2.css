@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+#CC li div{
+	display：none;
+	text-align: center;	
+	}
+#CC a：hover div{
+	display: block;	
+	}
+#body {
+	margin: 0px;
+	padding: 0px;
+}
+#CC {
+	height: 400px;
+	width: 320px;
+}
+#title {
+	width: 320px;
+	height: 40px;
+	font-size: 20px;
+
+	line-height: 40px;
+	color: #FFFFFF;
+	background-position: 130px;
+	background-repeat: no-repeat;
+	background-color: #e71755;
+	font-family: Verdana, Geneva, sans-serif;
+}
+li {
+	list-style-type: none;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	color: #b4b4b5;
+}
+a {
+	text-decoration: none;
+	color: #838383;
+}

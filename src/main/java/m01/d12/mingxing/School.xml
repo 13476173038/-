@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<school name="明星学校">
+	<class name="火箭班">
+	<student name="张三丰" age="18" sex="男">这个学生叫张三丰年龄18性别男</student>
+	<student>这个学生叫王八蛋</student>
+	</class>
+	</school>

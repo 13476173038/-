@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>页面注册</title>
+
+	<style type="text/css">
+	#a{width:600px; height:800px;background-color: antiquewhite;}
+		
+	</style>    
+	</head>
+	<body>
+	<div id=a>	
+		<h1 align="center">昊天集团成员注册表</h1>
+		<br />
+	    <br />
+		<form action="" method="post" action="Try.html">
+	    <font>账号：</font>
+		<input type="text" name="usrename" placeholder="请设置账户名"  required="required" pattern="[-\w\u4E00-\u9FA5]{4,10}"  />
+		<input type="text" name="提示" value="请输入4至10位由字母和数字组成的账号" disabled=""><br/>
+		<br/>
+		<font>密码：</font>
+		<input type="password" name="password"  placeholder="请设置密码" required="required" pattern="[\dA-Za-z]{6,16}" >
+			<input type="text" name="提示" value="请输入6-16数密码" readonly=""><br/>
+			<br/>
+		<font>密码：</font>
+		<input type="password" name="password"  placeholder="请再次确认密码" required="required" pattern="[\dA-Za-z]{6,16}" >
+			<input type="text" name="提示" value="请输入6-16数密码" readonly=""><br/>
+			<br/>
+		<font>请输入你的手机号：</font>
+		<input type="text" name="telephone number"  placeholder="请输入手机号码"  pattern="1[3578]\d{9}"/><br />
+		<font>请选择你的性别： </font>
+		<input type="radio" name="gender" id="sex1"/><label for="sex1">男</label>
+		<input type="radio" name="gender" id="sex2"/><label for="sex2">女</label><br>
+		<br/>
+		<font>请选择你的爱好： </font>	
+		<input type="checkbox" name="" />唱歌
+		<input type="checkbox" name="" />跳舞
+		<input type="checkbox" name="" />篮球
+		<input type="checkbox" name="" />网游
+		<br />
+		<br/>
+	    <font>工龄： </font>	
+	    <select>
+	    <option value="month">0</option>
+	    <option value="month">1</option>
+	    <option value="month">2</option>
+	    <option value="month">3</option>
+	    <option value="month">4</option>
+	    <option value="month">5</option>
+	    <option value="month">6</option>
+	    <option value="month">7</option>
+	    <option value="month">8</option>
+	    <option value="month">9</option>
+	    <option value="month">10</option>
+	    </select>
+	    <br/>
+	    <font>请认真阅读本公司规章制度：</font>
+        <formmethod=post action="" enctype="multipart/form-data">
+	    <input type="file" name="file" value="11" /><br />
+	    <br/>
+	    <br/>
+	    <center>
+	    <input type="submit" value="提交"/>
+	    <input type="reset" value="重置" />
+	    <input type="date" value="日期" hidden="hidden"/>
+	    </center>
+	</form>
+	</body>
+	</div>
+</html>

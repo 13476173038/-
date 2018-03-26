@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>作业</title>
+<style>
+	header {
+		height: 200px;border: 1px dashed;
+	}
+	section{
+	height: 300px;border: 1px dashed;}
+	#tab1{ float:left;}
+	#tab2{}
+	footer{
+		height: 35px;border: 1px dashed;
+		}
+	</style>
+</head>
+
+<body  bgcolor="#CCFFCC" >
+	<header>
+    <h1><font color="red">各</font><font color="yellow">小</font><font color="bule">组</font><font color="green">成<font color="yellow">绩</font><font color="red">列</font>表</h1>
+		<ul>
+			<li ><font color="red">第一小组成绩</font></li>
+			<li><font color="red">第二小组成绩</font></li>
+		</ul>
+	</header>
+	<section>
+ <table width="200" border="5"  cellpadding="1" id="tab1">
+	<caption>一组成绩</caption>
+	<tr>
+<td colspan="3"><em><strong><center>学生成绩</center></strong></em></td>
+	</tr>
+	<tr>
+	<td rowspan="2">孙浩</td>
+	<td>JAVA</td>
+	<td>100</td>	
+	</tr>
+	<tr>
+	<td>Web</td>
+	<td>99</td>	
+	</tr>
+	<tr>
+	<td rowspan="2">李翔</td>
+	<td>JAVA</td>
+	<td>101</td>	
+	</tr>
+	<tr>
+	<td>Web</td>
+	<td>94</td>	
+	</tr>
+	<tr>
+	<td rowspan="2">罗老大</td>
+	<td>JAVA</td>
+	<td>99</td>	
+	</tr>
+	<tr>
+	<td>Web</td>
+	<td>1000</td>	
+	</tr>
+
+ <table width="200" border="5"  cellpadding="1" id="tab2">
+	<caption>二组成绩</caption>
+	<tr>
+<td colspan="3"><em><strong><center>学生成绩</center></strong></em></td>
+	</tr>
+	<tr>
+	<td rowspan="2">刘文</td>
+	<td>JAVA</td>
+	<td>90</td>	
+	</tr>
+	<tr>
+	<td>Web</td>
+	<td>97</td>	
+	</tr>
+	<tr>
+	<td rowspan="2">杨奎</td>
+	<td>JAVA</td>
+	<td>101</td>	
+	</tr>
+	<tr>
+	<td>Web</td>
+	<td>94</td>	
+	</tr>
+	<tr>
+	<td rowspan="2">吕威</td>
+	<td>JAVA</td>
+	<td>99</td>	
+	</tr>
+	<tr>
+	<td>Web</td>
+	<td>1000</td>	
+	</tr>
+    </table>
+    <hr  size=5 color=yellow width=100% align="center">
+    </section>
+  
+    <footer>
+    <audio controls autoplay loop>
+    <source src="孙楠 - 青鸟之歌.mp3"/>
+    <source src="孙楠 - 青鸟之歌.ogg"/>
+    </audio>
+    </footer>
+</body>
+</html>

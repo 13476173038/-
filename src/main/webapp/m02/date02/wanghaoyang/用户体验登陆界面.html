@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>用户体验登陆界面</title>
+	</head>
+	<style type="text/css">
+		body{
+			margin: 0 0;
+			padding: 0 0;
+		}
+		#dad{
+			width: 312px;
+			height: 353px;
+			border: 1px solid red;
+			background: url(img/bg.jpg) no-repeat;						
+		}
+		#username{
+			margin-top: 85px;
+			padding-left: 20px;
+			width: 100%;
+			height: 45px;
+			border: 0px solid red;
+		}
+		#email{
+			padding-left: 21px;
+			width: 100%;
+			height: 45px;
+			border: 0px solid red;
+		}
+		#phonenumber{
+			padding-top: 0px;
+			padding-left: 20px;
+			width: 100%;
+			
+			border: 0px solid red;
+		}
+		
+		#gender{
+		width: 100%;	
+		padding-top: 20px;
+		padding-left: 29px;
+	    }
+		
+		#birthday{
+			width: 100%;
+			padding-left: 29px;
+			padding-top: 20px;
+		}
+		.st{
+			font-weight: bolder;
+			color: white;
+		}		
+		#
+	</style>
+	<script>
+	window.onload=function(){
+			var year=document.getElementById("year");
+			var yy= year.options;//多个option  对象
+			var dd=new Date();
+			for(var i=1900;i<=dd.getFullYear();i++){
+					//js:对象和数组可以任意的转换
+					yy[i-1900+1]=new Option(i,i-1900+1);
+				}
+			var month=document.getElementById("month");
+			var mm=month.options;
+			for(var i=1;i<=12;i++){
+					mm[i]=new Option(i,i);
+				}
+			var day=document.getElementById("day");
+			var dd=day.options;
+			for(var i=1;i<=31;i++){
+				dd[i]=new Option(i,i);
+			}
+		}
+</script>
+	<body>
+		<div id="dad">			
+			<form action="" method="post">
+				
+				<div id="username"><font color="#FF0000">*</font><span class="st">用户名:</span>&nbsp;<input name="姓名" style="border-radius: 7px 7px 7px 7px;" type="text"  placeholder="请输入用户名" ></div>
+				<div id="email"><font color="#FF0000">*</font><span class="st">邮箱:</span>&nbsp;&nbsp;&nbsp;&nbsp;<input name="email" id="Email" style="border-radius: 7px 7px 7px 7px;" type="text" size="20px"> </div>
+				<div id="phonenumber"><font color="#FF0000">*</font><span class="st">电话:&nbsp;&nbsp;&nbsp;&nbsp;</span><input name="电话" style="border-radius: 7px 7px 7px 7px;" type="text" size="20px"></div>
+				<div id="gender"><span class="st"><span class="st">性别:</span>&nbsp;&nbsp;&nbsp;<select style="border-radius: 7px 7px 7px 7px;">
+					<option>请选择</option>
+					<option>男</option>
+					<option>女</option>
+				</select></div>
+				<div id="birthday"><span class="st">生日：</span>
+					<select id="year" style="border-radius: 7px 7px 7px 7px;"><option>请选择</option></select>
+					<select id="month" style="border-radius: 7px 7px 7px 7px;"><option>请选择</option></select>
+					<select id="day" style="border-radius: 7px 7px 7px 7px;"><option>请选择</option></select>
+				</div>
+				<div>
+					<input type="image" src="img/btn.jpg" style="padding-top: 10px; padding-left:70px;"/>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>

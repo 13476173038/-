@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+#banner {
+	
+	margin: 0px;
+	height: 400px;
+	width: 300px;
+	border-left-width: 10px;
+	background-color: #3ea4ec;
+	background-image: url(imges2/bg.jpg);
+	background-repeat: no-repeat;
+}
+#center {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	line-height: 15px;
+	color: #FFF;
+	padding-top: 80px;
+	padding-left: 30px;
+		list-style-type: none;   
+	line-height: 20px;	
+}
+#center div{
+	color: #F00;
+	display: block;
+	float: left;	
+	}	

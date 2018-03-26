@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+#body {
+	margin: 0px;
+	padding: 0px;
+}
+ol {
+	font-size: 14px;
+	color: #F00;
+	list-style-type: none;
+}
+#class2 ol {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #00C;
+	list-style-type: none;
+}
+
+li{
+	font-size: 14px;
+	color: #000;	
+	}
+#class3 ol {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #00C;
+	list-style-type: none;
+}
+#class4 ol {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #00C;
+	list-style-type: none;
+}

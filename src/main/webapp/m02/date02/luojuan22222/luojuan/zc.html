@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>免费抢先体验</title>
+		<style type="text/css">
+			body{
+				padding: 0 0;
+				margin: 0 0;
+			}
+			#main{
+				width: 313px;
+				height: 355px;
+				background-image: url(img/bg.jpg);
+				background-repeat: no-repeat;
+			}
+			table{
+				width: 313px;
+				padding-top:90px ;
+				padding-left: 22px;
+				color: white;
+			}
+			table span{
+				color: red;
+			}
+			input{
+				border-radius: 6px;
+			}
+			select{
+				border-radius: 4px;
+				
+			}
+			#imin{
+				padding-left: 85px;
+			}
+			.tt{
+				float: right;
+			}
+			tr:nth-child(2){
+				padding-left: 0px;
+				}
+			.tt3{
+				padding-left: 15px;
+			}
+			
+		</style>
+		<script>
+			window.onload=function(){
+				var age=document.getElementById("age");
+				var aa=age.options;
+				for(var i=0;i<200;i++){
+					aa[i+1]=new Option(i,i+1);
+				}
+				
+				var al=document.getElementById("imin");
+				al.onclick=function(){
+					var name=document.getElementById("name").value;
+					alert(name+"您好，欢迎您的再次使用！");
+				}
+				
+				var name=document.getElementById("name");
+				name.onfocus=function(){
+					var p=document.getElementById("ts");
+					p.innerHTML="得到焦点";
+				}
+				name.onblur=function(){
+					var p=document.getElementById("ts");
+					p.innerHTML="输入有误";
+				}
+				
+			}
+
+		</script>
+	</head>
+	<body>
+		<div id="main">
+			<table cellspacing="0" cellpadding="8">
+				<tr>
+					<td class="tt" ><span>*</span>&nbsp;姓名：</td>
+					<td><input type="text" id="name"></td>
+				</tr>
+				<tr>
+					<td class="tt"><span>*</span>&nbsp;邮箱：</td>
+					<td><input type="text"></td>
+				</tr>
+				<tr>
+					<td class="tt"><span>*</span>&nbsp;电话：</td>
+					<td><input type="text"></td>
+				</tr>
+				<tr>
+					<td class="tt3">性别：</td>
+					<td>
+						<select>
+							<option>请选择</option>
+							<option>男</option>
+							<option>女</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td class="tt3">年龄：</td>
+					<td>
+						<select id="age">
+							<option>请选择</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2"><input type="image" src="img/btn.jpg" id="imin"></td>
+				</tr>
+			</table>
+			<p id="ts">
+				
+			</p>
+		</div>
+	</body>
+</html>

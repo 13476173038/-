@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CSS</title>
+<style>
+	header {
+		height:40px;border: 1px none;
+		 background-color: blue;
+	}
+	section{
+	height: 600px;border: 1px none;
+	 background-color:#6FF ;
+	 }
+	footer{
+		height: 35px;border: 1px none;
+		}
+		a:nth-of-type(1){text-decoration:underline;}
+		p{
+			font-size:12px;text-left;line-height:18px;text-indent:2em;
+			}
+	
+	</style>
+
+</head>
+
+<body>
+<header>
+<h1><font size="5" color="white"><strong><center>互联网发展的起源</center></strong> </font>
+</h1>
+</header>
+<section><img src="2018-01-19_152204.jpg" alt="logo">
+<p>1969年，为了保障通信联络，美国国防部高级研究计划署ARPA
+资助建立了世界上第一个分组交换试验网ARPANET，连接美国四个大学。ARPANET
+的建成和不断发展标志着计算机网络发展的新纪元。
+</p>  
+<p> 20世纪70年代末到80年代初，计算机网络蓬勃发展，各种各样的计算机网络
+应运而生，如MILNET、USENET、BITNET、CSNET等，在网络的规模和数量上都得到了很大的发展。一系列网络的建设，产生了不同网络之间互联的需求，并最终导致了TCP/IP
+协议的诞生。 
+</p> 
+	</section>
+
+</body>
+</html>

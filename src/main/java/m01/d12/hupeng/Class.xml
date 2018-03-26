@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<School>
+   <Class>
+     <Students>  
+       <Student id="dy031" >  
+          <Name>胡鹏</Name>  
+          <Age>21</Age>  
+       </Student>  
+       <Student id="dy030">  
+          <Name>张三</Name>  
+          <Age>23</Age>  
+       </Student>  
+     </Students>  
+   </Class>
+</School>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+		<!--
+        	作者：1753023600@qq.com
+        	时间：2018-01-17
+        	描述：get提交信息栏会记录,不安全,数据太多不行,存储体积有限
+        	post:信息栏没有记录,更加安全
+        -->
+        <table  bordercolor="white"   cellpadding="10" 
+        	cellspacing="3" width="200"   bgcolor="cornsilk" >
+        	<tr>
+        		<td  >
+		<form  name="input"  action="注册成功"  method="get">
+			用户名:&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" 
+				name="username" 
+				required="required"
+				placeholder="请输入用户名"><br /> 
+			密码:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="password" 
+				name="password" 
+				required="required" 
+				placeholder="密码大小为:9~12位" /><br /> 
+			确认密码:<input type="password" 
+				name="repassword" 
+				required="required"
+				placeholder="密码大小为:9~12位" /><br /> 
+			性别:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" 
+				name="sex" 
+				value="男" />男
+			    <input type="radio" 
+			    name="sex" 
+			    value="女" />女<br />
+			爱好: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" 
+				name="hobby" 
+				value="敲代码" />敲代码<br />
+			&nbsp;&nbsp;<input type="checkbox" 
+				name="hobby" 
+				value="打桌球" />打桌球<br />
+			&nbsp;&nbsp;<input type="checkbox" 
+				name="hobby" 
+				value="健身" />健身<br /> 
+			日期:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="date" /><br />
+			籍贯:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select name="province">
+				<option>请选择</option>
+				<option>北京</option>
+				<option>上海</option>
+				<option>深圳</option>
+				<option>杭州</option>
+				<option>武汉</option>
+				<option>南京</option>
+				<option>郑州</option>
+				<option>重庆</option>
+				<option>天津</option>
+				<option>广州</option>
+				<option>成都</option>
+				<option>沈阳</option>
+				<option>厦门</option>
+				<option>合肥</option>
+				<option>苏州</option>
+				<option>长沙</option>
+			</select><br /> 
+			头像:<input type="file" 
+				name="file" /><br /> 
+			自我介绍:<textarea name="hupeng">
+				
+			</textarea><br /> 
+			登录按钮:<input  type="button" 
+				name="logon" 
+				value="登录"/><br />
+			提交按钮:<input type="submit" 
+				value="注册" /><br /> 
+			普通按钮:<input type="button" 
+				value="zhuce" /><br /> 
+			重置按钮:<input type="reset" />
+		</form>
+		</td>
+		</tr>
+        </table>
+	</body>
+
+</html>

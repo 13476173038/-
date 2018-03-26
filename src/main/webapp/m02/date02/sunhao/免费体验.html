@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>免费体验登入界面</title>
+		<style>
+		#a{width: 312px;height: 353px; background-image: url(img/bg.jpg);
+		    background-repeat: no-repeat; 
+		  }	
+		#b{width: 312px;height: 100px;}		  
+	    table input{border-radius: 8px;} 
+	    select{border-radius: 8px;;} 
+		</style>
+		<script>3
+			window.onload=function(){
+				var age=document.getElementById("age");
+				var ages=age.options;
+				for(var i=1;i<=130;i++){
+					ages[i]=new Option(i,i);
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<div id="a" align="center">
+			<div id="b">
+				
+			</div>
+		    <table align="center">
+		    	<tr>
+		    		<td><span style="color: red;">*</span><span style="color: white;">姓名:</span></td>
+		    		<td><div><input type="text" value=""></td></div>
+		    	</tr>
+		    	<tr >
+		    		<td><span style="color: red;">*</span><span style="color: white;">邮箱:</span></td>
+		    		<td><input type="text" value=""></td>
+		    	</tr>
+		    	<tr >
+		    		<td><span style="color: red;">*</span><span style="color: white;">电话:</span></td>
+		    		<td><input type="text" value=""></td>
+		    	</tr>
+		    	</table>
+                <table align="left">
+		    	<tr >
+		    	    <td><span style="color: white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;性别：</span> <select>
+		    	    <option value="gender">请选择</option>
+	                <option value="gender">男</option>
+	                <option value="gender">女</option><select/><td>
+		    	</tr>
+		    	<tr >
+		            <td><span style="color: white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;年龄：</span> <select id="age">
+		           <option value="age">请选择</option> 	
+		            </select>	
+		    	</tr>
+		    </table>
+		    <br/>
+		    <br/>  
+		    <br/>
+		    <br/>
+		    <input type="image" src="img/btn.jpg" width="152px" height="49px" border=0>
+		</div>
+	
+	</body>
+</html>

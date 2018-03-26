@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Schools address="武汉光谷校区"> 
+  <class classId="DT59">
+    <student id="001">
+	  <name>小花</name>
+      <sex>女</sex>
+      <age>18岁</age>
+	</student>
+	<student id="002">
+	  <name>小明</name>
+      <sex>男</sex>
+      <age>20岁</age>
+	</student> 
+	<student id="003">
+	  <name>小西</name>
+      <sex>女</sex>
+      <age>22岁</age>
+	</student>
+  </class>
+   <class classId="DT60">
+    <student id="061">
+	  <name>花花</name>
+      <sex>女</sex>
+      <age>25岁</age>
+	</student>
+	<student id="062">
+	  <name>东东</name>
+      <sex>男</sex>
+      <age>20岁</age>
+	</student>
+	<student id="063">
+	  <name>西西</name>
+      <sex>女</sex>
+      <age>22岁</age>
+	</student>
+  </class>
+</Schools>

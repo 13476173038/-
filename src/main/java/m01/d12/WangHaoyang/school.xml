@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<school schoolName="北大青鸟">
+
+    <class classBame="dt59班">
+      <studentName>王豪炀</studentName>
+          <age>22</age>
+          <sex>male</sex>
+	  <studentName>孙浩</studentName>
+	      <age>23</age>
+          <sex>male</sex>
+	  <studentName>李翔</studentName>
+	      <age>22</age>
+          <sex>male</sex>
+	  <studentName>胡鹏</studentName>
+	      <age>22</age>
+          <sex>male</sex>
+	  <studentName>罗娟</studentName>
+	      <age>18</age>
+          <sex>female</sex>
+	  <studentName>明星</studentName>
+	      <age>23</age>
+          <sex>male</sex>
+    </class>
+
+	<class classBame="dt58班">
+      <studentName>王一</studentName>
+          <age>22</age>
+          <sex>male</sex>
+	  <studentName>孙二</studentName>
+	      <age>23</age>
+          <sex>male</sex>
+	  <studentName>李三</studentName>
+	      <age>22</age>
+          <sex>male</sex>
+	  <studentName>胡四</studentName>
+	      <age>22</age>
+          <sex>male</sex>
+	  <studentName>罗五</studentName>
+	      <age>18</age>
+          <sex>female</sex>
+	  <studentName>明六</studentName>
+	      <age>23</age>
+          <sex>male</sex>
+    </class>
+
+	<class classBame="dt57班">
+      <studentName>王一一</studentName>
+          <age>22</age>
+          <sex>male</sex>
+	  <studentName>孙二二</studentName>
+	      <age>23</age>
+          <sex>male</sex>
+	  <studentName>李三三</studentName>
+	      <age>22</age>
+          <sex>male</sex>
+	  <studentName>胡四四</studentName>
+	      <age>22</age>
+          <sex>male</sex>
+	  <studentName>罗五五</studentName>
+	      <age>18</age>
+          <sex>female</sex>
+	  <studentName>明六六</studentName>
+	      <age>23</age>
+          <sex>male</sex>
+    </class>
+
+</school>
