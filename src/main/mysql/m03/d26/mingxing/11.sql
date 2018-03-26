@@ -1,0 +1,8 @@
+CREATE DATABASE mydt59datamingxing;
+CREATE TABLE info
+(
+ id INT PRIMARY KEY,
+ NAME VARCHAR(200)
+)
+INSERT INTO info VALUES(110,'鲁直伸');
+SELECT * FROM info;
