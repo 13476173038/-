@@ -1,0 +1,10 @@
+SET NAME fai;
+BEGIN;
+INSERT INTO penalty (rid,bid,pdate,ptype,amount) VALUES('0008','0007','2018-3-24','1','4.6');
+INSERT INTO borrow (rid,nif,lenddate,willdate) VALUES('0008','0007','2017-7-23','2017-8-31');
+UPDATE borrow SET returndate="2018-3-24" WHERE rid='0008';
+UPDATE reader SET lennum ='1' WHERE rname ='刘冰冰';
+UPDATE book SET bcount ='102' WHERE bocunt ='103';
+UPDATE reader SET lennum ='0' WHERE rname ='刘冰冰';
+UPDATE book SET bocunt ='103' WHERE bocunt ='102';
+COMMIT;
