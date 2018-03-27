@@ -7,7 +7,6 @@
   ——  Ming Xing 明星
   ——  Hu Peng 胡鹏
   ——  Li Xiang 李翔
-  ——  Ma Hui 马辉
 
 # Brief Introduction of Your Group（小组介绍）
       这是一批想拿高薪的程序猿。
