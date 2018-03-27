@@ -74,7 +74,7 @@ public class jdbcSelect1 {
 		}finally{
 			close(con,pst,rs);
 		}
-		return null;
+		return list;
 	}
 	private void close(Connection con, PreparedStatement pst, ResultSet rs) {
 	
