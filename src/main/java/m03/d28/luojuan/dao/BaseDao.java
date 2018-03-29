@@ -82,6 +82,8 @@ public class BaseDao {
             flag = ps.executeUpdate();
         } catch (SQLException e) {
             e.printStackTrace();
+        } finally {
+            close(con, ps, rs);
         }
         return flag;
     }
