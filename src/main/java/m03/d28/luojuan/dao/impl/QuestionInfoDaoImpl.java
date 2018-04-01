@@ -58,7 +58,7 @@ public class QuestionInfoDaoImpl extends BaseDao implements QuestionInfoDao {
 
         int flag = 0;
         try {
-            String sql = "SELECT * FROM question_info WHERE SUBJECT =?";
+            String sql = "SELECT * FROM question_info WHERE SUBJECT=?";
             Object[] obj = new Object[1];
             if (t instanceof QuestionInfo) {
                 QuestionInfo ff = (QuestionInfo) t;
@@ -86,8 +86,27 @@ public class QuestionInfoDaoImpl extends BaseDao implements QuestionInfoDao {
 
     @Override
     public int addSt(Object t) {
+        int flag = 0;
+        try {
+            String sql = "INSERT INTO question_info(question,optionA,optionB,optionC,optionD,SUBJECT,answer) VALUES(?,?,?,?,?,?,?);";
+            Object[] obj = new Object[7];
+            if (t instanceof QuestionInfo) {
+                QuestionInfo ff = (QuestionInfo) t;
+                // obj[0] = ff.getQuestionId();
+                obj[0] = ff.getQuestion();
+                obj[1] = ff.getOptionA();
+                obj[2] = ff.getOptionB();
+                obj[3] = ff.getOptionC();
+                obj[4] = ff.getOptionD();
+                obj[5] = ff.getSubject();
+                obj[6] = ff.getAnswer();
+            }
+            flag = contro(sql, obj);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
-        return 0;
+        return flag;
     }
 
     @Override
@@ -95,7 +114,7 @@ public class QuestionInfoDaoImpl extends BaseDao implements QuestionInfoDao {
 
         int flag = 0;
         try {
-            String sql = "DELETE FROM info WHERE questionId=?";
+            String sql = "DELETE FROM  question_info WHERE questionId=?";
             Object[] obj = new Object[1];
             obj[0] = questionId;
             flag = contro(sql, obj);

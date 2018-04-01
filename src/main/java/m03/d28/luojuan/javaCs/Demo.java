@@ -63,7 +63,31 @@ public class Demo {
             // }
             break;
         }
-        case 3: {
+        case 4: {
+            QuestionInfo info = new QuestionInfo();
+            System.out.println("请输入要添加的科目题干：");
+            info.setQuestion(sc.next());
+            System.out.println("请输入要添加的选项A");
+            info.setOptionA(sc.next());
+            System.out.println("请输入要添加的选项B");
+            info.setOptionB(sc.next());
+            System.out.println("请输入要添加的选项C");
+            info.setOptionC(sc.next());
+            System.out.println("请输入要添加的选项D");
+            info.setOptionD(sc.next());
+            System.out.println("请输入要添加的科目编号：");
+            info.setSubject(sc.nextInt());
+            System.out.println("请输入要添加的题目答案：");
+            info.setAnswer(sc.next());
+            int flag = qInfoDao.addSt(info);
+            if (flag > 0) {
+                System.out.println("添加成功！");
+            } else {
+                System.out.println("添加失败！");
+            }
+            break;
+        }
+        case 5: {
             System.out.println("请输入要删除的编号:");
             int id = sc.nextInt();
             int flag = qInfoDao.deleteSt(id);
