@@ -8,7 +8,7 @@
 </head>
 <body>
     <div align="center">  阴阳师注册官网 
-    <form name="yyform" method="post" action="reginfo.jsp">
+    <form name="yyform" method="post" action="text.jsp">
     <table border="0" align="center">
     <tr>
        <td>账号：</td>
