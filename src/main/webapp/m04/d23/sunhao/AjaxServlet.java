@@ -39,8 +39,8 @@ public class AjaxServlet extends HttpServlet {
         response.setContentType("text/html");
         String city = request.getParameter("a");
         PrintWriter out = response.getWriter();
-        if (city.equals("")) {
-            out.print("ÇëÑ¡Ôñ³ÇÊÐ");
+        if (city.equals("è¯·é€‰æ‹©")) {
+            out.print("è¯·é€‰æ‹©åŸŽå¸‚");
         }
         out.flush();
         out.close();
