@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="SqlMapper">
+  <select id="getBooks"  resultType="cn.bird.pojo.Book"> 
+    select * from Book 
+  </select>
+  <select id="getBookbyId"  parameterType="int" resultType="cn.bird.pojo.Book"> 
+    select * from Book where bid=#{bid}
+  </select>
+  <select id="getBookbyMap"  parameterType="java.util.HashMap" resultType="cn.bird.pojo.Book"> 
+    select * from Book where bid=#{bid} and bname=#{bname}
+  </select>
+  <select id="getBookbyEntity"  parameterType="cn.bird.pojo.Book" resultType="cn.bird.pojo.Book"> 
+    select * from Book where bid=#{bid} and bname=#{bname}
+  </select>
+  <select id="getBorrowInfo"   resultType="java.util.HashMap"> 
+    select b.bid,b.bname,r.rname from Book b,reader r where b.bid=r.rbn;
+  </select>
+</mapper>
